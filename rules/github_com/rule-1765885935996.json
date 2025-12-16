@@ -1,0 +1,15 @@
+{
+  "id": "rule-1765885935996",
+  "hostname": "github.com",
+  "urlPattern": "github\\.com",
+  "selector": "div.logged-in.env-production:nth-of-type(1) > div.application-main:nth-of-type(6) > main > div.container-xl.px-3 > div.Layout.Layout--flowRow-until-md > div.Layout-sidebar:nth-of-type(1) > div.h-card.mt-5 > div.js-profile-editable-replace > div.d-flex.flex-column:nth-of-type(2) > div.js-profile-editable-area.d-flex:nth-of-type(2) > ul.vcard-details > li.vcard-detail.pt-1:nth-of-type(2)",
+  "contentPattern": "X",
+  "action": "remove",
+  "replacement": null,
+  "metadata": {
+    "reportedUrl": "https://github.com/topjohnwu",
+    "originalContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" role=\"img\" aria-labelledby=\"aqd0jqbwqi98w70k6acpc53yuy45g84y\" class=\"octicon\"><title id=\"aqd0jqbwqi98w70k6acpc53yuy45g84y\">X</title><path fill=\"currentColor\" d=\"M9.332 6.925 14.544 1h-1.235L8.783 6.145 5.17 1H1l5.466 7.78L1 14.993h1.235l4.78-5.433 3.816 5.433H15L9.332 6.925ZM7.64 8.848l-.554-.775L2.68 1.91h1.897l3.556 4.975.554.775 4.622 6.466h-1.897L7.64 8.848Z\"></path></svg>\n        <a rel=\"nofollow me\" class=\"Link--primary wb-break-all\" href=\"https://twitter.com/topjohnwu\">@topjohnwu</a>\n",
+    "notes": "Shared from local rule: user-1765885929068-o1fuw",
+    "createdAt": "2025-12-16T11:52:15.997Z"
+  }
+}

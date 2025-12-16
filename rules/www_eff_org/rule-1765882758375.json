@@ -1,0 +1,15 @@
+{
+  "id": "rule-1765882758375",
+  "hostname": "www.eff.org",
+  "urlPattern": "www\\.eff\\.org",
+  "selector": "div:nth-of-type(7) > div.panel-pane.pane-menu-tree:nth-of-type(2) > div.menu-block-wrapper.menu-block-ctools-menu-footer-social-links-1 > ul.menu > li.leaf.menu-mlid-13408:nth-of-type(4) > a",
+  "contentPattern": "x",
+  "action": "remove",
+  "replacement": null,
+  "metadata": {
+    "reportedUrl": "https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back",
+    "originalContent": "x",
+    "notes": "Shared from local rule: user-1765882294390-evvjp",
+    "createdAt": "2025-12-16T10:59:18.376Z"
+  }
+}

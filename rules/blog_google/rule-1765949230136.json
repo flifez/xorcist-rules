@@ -1,0 +1,15 @@
+{
+  "id": "rule-1765949230136",
+  "hostname": "blog.google",
+  "urlPattern": "blog\\.google",
+  "selector": "footer.h-c-footer.h-c-footer--topmargin > section.h-c-footer__upper:nth-of-type(1) > section.h-c-social > div.h-c-social__group > ul.h-c-social__list.h-no-bullet > li.h-c-social__item:nth-of-type(2) > a.h-c-social__link.uni-click-tracker",
+  "contentPattern": "x\\.com",
+  "action": "replace",
+  "replacement": "<a class=\"h-c-social__link uni-click-tracker\" aria-label=\"x.com\" href=\"https://twitter.com/google\" rel=\"noopener\" target=\"_blank\">\n                  <svg class=\"h-c-icon h-c-icon--24px h-c-icon--social\" aria-hidden=\"true\" viewBox=\"0 0 18 18\">\n  <path d=\"M17.732 3.703a6.66 6.66 0 0 1-2.006.55 3.506 3.506 0 0 0 1.536-1.933 6.99 6.99 0 0 1-2.219.848 3.493 3.493 0 0 0-5.949 3.184 9.91 9.91 0 0 1-7.197-3.65 3.49 3.49 0 0 0 1.08 4.66 3.47 3.47 0 0 1-1.582-.437v.044a3.494 3.494 0 0 0 2.8 3.424 3.49 3.49 0 0 1-1.577.06 3.494 3.494 0 0 0 3.264 2.426 7.002 7.002 0 0 1-5.166 1.496 9.87 9.87 0 0 0 5.356 1.57c6.43 0 9.942-5.323 9.942-9.94 0-.152-.004-.302-.01-.452a7.1 7.1 0 0 0 1.742-1.806z\"></path>\n</svg>\n\n                </a>",
+  "metadata": {
+    "reportedUrl": "https://blog.google/",
+    "originalContent": "<a class=\"h-c-social__link uni-click-tracker\" aria-label=\"x.com\" href=\"https://twitter.com/google\" rel=\"noopener\" target=\"_blank\">\n                  <svg class=\"h-c-icon h-c-icon--24px h-c-icon--social\" aria-hidden=\"true\" viewBox=\"0 0 18 18\">\n  <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" href=\"/static/blogv2/images/icons.svg?version=pr20251215-1743#social-x\"></use>\n</svg>\n\n                </a>",
+    "notes": "Replace Google static resource with canonical SVG path to prevent regression.",
+    "createdAt": "2025-12-17T05:27:10.137Z"
+  }
+}
